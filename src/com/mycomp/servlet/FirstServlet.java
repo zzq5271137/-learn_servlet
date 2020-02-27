@@ -50,6 +50,7 @@ public class FirstServlet implements Servlet {
         HttpServletResponse response = (HttpServletResponse) res;
         PrintWriter writer = response.getWriter();
         writer.write("<h1>Hello from first servlet</h1>");
+        
     }
 
     /**
